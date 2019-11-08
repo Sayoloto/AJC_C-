@@ -8,6 +8,7 @@
 #include "QFileDialog"
 #include "QByteArray"
 #include "QUrl"
+#include "QDebug"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),

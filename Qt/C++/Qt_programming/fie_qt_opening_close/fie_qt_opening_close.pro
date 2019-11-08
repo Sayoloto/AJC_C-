@@ -3,6 +3,9 @@
 # Project created by QtCreator 2019-10-15T09:33:37
 #
 #-------------------------------------------------
+target.path = root
+
+INSTALLS += target
 
 QT       += core gui
 
