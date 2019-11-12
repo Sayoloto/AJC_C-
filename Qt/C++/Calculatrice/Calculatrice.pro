@@ -1,17 +1,14 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2019-10-15T09:33:37
+# Project created by QtCreator 2019-11-12T09:20:23
 #
 #-------------------------------------------------
-message($$QMAKESPEC)
-linux-buildroot-g++{target.path = root
-INSTALLS += target}
 
 QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = fie_qt_opening_close
+TARGET = Calculatrice
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -27,17 +24,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += \
-        main.cpp \
-        mainwindow.cpp \
-    dialog.cpp
+        mainwindow.cpp
 
 HEADERS += \
-        mainwindow.h \
-    dialog.h
+        mainwindow.h
 
 FORMS += \
-        mainwindow.ui \
-    dialog.ui
-
-RESOURCES += \
-    ressource.qrc
+        mainwindow.ui
