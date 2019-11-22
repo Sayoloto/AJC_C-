@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2019-11-14T14:40:15
+# Project created by QtCreator 2019-11-22T10:24:32
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = using_graphicscene
+TARGET = dashboard_button
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -26,15 +26,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    my_graphics_item.cpp \
-    my_graphics_seat_belt.cpp \
-    tableau_du_board.cpp
+    buttons.cpp
 
 HEADERS += \
         mainwindow.h \
-    my_graphics_item.h \
-    my_graphics_seat_belt.h \
-    tableau_du_board.h
+    buttons.h
 
 FORMS += \
         mainwindow.ui

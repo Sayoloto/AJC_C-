@@ -21,3 +21,5 @@ void my_graphics_item::vitesse_gauge()
 {
 
 }
+
+

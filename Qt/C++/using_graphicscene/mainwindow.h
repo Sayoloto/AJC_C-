@@ -5,7 +5,10 @@
 #include "QGraphicsScene"
 #include "QGraphicsItem"
 #include "QGraphicsRectItem"
+
 #include "my_graphics_item.h"
+#include "my_graphics_seat_belt.h"
+#include "tableau_du_board.h"
 
 namespace Ui {
 class MainWindow;
@@ -25,6 +28,7 @@ private:
     QGraphicsRectItem * rectangle;
     QGraphicsTextItem * text;
     my_graphics_item * temp_gauge;
+    my_graphics_seat_belt * seat_belt;
 };
 
 #endif // MAINWINDOW_H
